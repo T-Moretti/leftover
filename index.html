@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leftover</title>
+    <link rel="shortcut icon" href="#">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>Leftover</h1>
+    </header>
+    <main>
+        <div class='wrapper' id='welcome'>
+            <p>
+                Didn't use the whole cucumber? Do you still have a potato left?  <br><br>
+                Enter your leftover ingredient and see what you can make tonight!
+            </p>
+        </div>
+
+        <form id='js-search-form'>
+            <div class='wrapper'>
+                <label for="js-search-term">Enter ingredient:</label>
+                <input type="text" name='search-term' id='js-search-term' required>
+
+                <input type="submit" value='Let&#39s eat!'>
+            </div>        
+        </form>
+
+        <p id='js-error-message' class='error-message'></p>
+        <section class='results hidden'>
+            <div class='show'>
+                <h2>Results:</h2>
+            </div>
+            <div id='results'></div>            
+        </section>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="index.js"></script> 
+</body>
+</html>
