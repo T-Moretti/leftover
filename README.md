@@ -4,7 +4,7 @@
 https://t-moretti.github.io/leftover/
 
 ### Screenshot
-![screenshot] (screenShotLeftover.png)
+![screenshot](screenshot.png)
 
 Summary
 Introducing Leftover! No longer should you have to suffer the guilt and monetary consequences of wasting precious food. 
