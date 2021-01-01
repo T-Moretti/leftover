@@ -3,7 +3,7 @@
 ### Link to Live App 
 https://t-moretti.github.io/leftover/
 
-Screenshot - 
+![Screenshot] (screenShotLeftover.png)
 
 Summary
 Introducing Leftover! No longer should you have to suffer the guilt and monetary consequences of wasting precious food. 
