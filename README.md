@@ -12,6 +12,6 @@ Enter your ingredient and see what's cooking tonight. No food left behind!
 
 ## Technology used: 
 * HTML
-*CSS
-JavaScript
-jQuery
+* CSS
+* JavaScript
+* jQuery
