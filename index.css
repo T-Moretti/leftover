@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  flex-direction: row;
 }
 
 header {
@@ -12,8 +13,8 @@ header {
   color: #e3dfdf;
   font-weight: bold;
   background-color: #A0B9BF;
-  margin-left: 50px;
-  margin-right: 50px;
+  /* margin-left: 50px;
+  margin-right: 50px; */
   border-radius: 10px;
 }
 
@@ -48,15 +49,32 @@ header {
 }
 
 #results {
-  width: 50%;
+  width: 70%;
   z-index: 1;
-  padding: 10px;
   max-width: 90%;
   margin: 0 auto;
   color: #23395b;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+#results img {
+  max-width: 100%; 
+}
+
 .hidden {
     display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  #results {
+    display: flex;
   }
+  .result {
+    flex: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .show h2 {
+    text-align: center;
+  }
+}
